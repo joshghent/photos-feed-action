@@ -1,0 +1,14 @@
+name: Photos
+author: "@muan"
+description: "iCloud Photos Feed"
+runs:
+  using: "node16"
+  main: index.js
+
+inputs:
+  fileName:
+    description: "The filename to save your photos."
+    default: "_data/photos.json"
+  imagesDirectory:
+    description: "The directory to save images"
+    default: "images"
